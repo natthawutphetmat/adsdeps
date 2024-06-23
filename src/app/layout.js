@@ -1,12 +1,11 @@
-// src/app/layout.js
 import { Inter } from "next/font/google";
 import "./globals.css";
 import "./style.css";
 import "./modal.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from './components/nav';
-import Footer from './components/Footer';
-
+import NavBar from './components/navBar'
+import Footer from './components/Footer'
+import Line from './line/page'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,10 +19,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <NavBar />
-     
+        <Line />
+        
         {children}
         <Footer />
+        
       </body>
+     
     </html>
   );
 }
