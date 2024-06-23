@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from './components/navBar'
 import Footer from './components/Footer'
 import Line from './line/page'
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ["latin"] });
 
