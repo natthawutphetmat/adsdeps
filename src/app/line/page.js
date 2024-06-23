@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Line() {
   return (
     <div>
-      <Link href='https://lin.ee/8Ty5gad' className=''>  
+      <Link href='https://lin.ee/8Ty5gad' className='lines bounce'>  
         <img src="/img/line.png" width={50} height={50} alt="line" className='lines bounce' />
       </Link>
     </div>
