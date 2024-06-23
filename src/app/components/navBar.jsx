@@ -8,7 +8,7 @@ function Nav() {
     <div className='linecut'></div>
       <nav className="navbar navbar-expand-lg " id='nav'>
   <div className="container-fluid">
-    <Link className="navbar-brand" href="/line">
+    <Link className="navbar-brand" href="https://lin.ee/8Ty5gad">
     
     <Image src="/img/logo.png" alt="Favicon" width={60} height={60} />
 
