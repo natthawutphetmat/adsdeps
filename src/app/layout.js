@@ -4,7 +4,7 @@ import "./globals.css";
 import "./style.css";
 import "./modal.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from './components/NavBar';
+import NavBar from './components/nav';
 import Footer from './components/Footer';
 import Line from './components/Line';
 
