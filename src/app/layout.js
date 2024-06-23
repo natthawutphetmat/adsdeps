@@ -3,7 +3,7 @@ import "./globals.css";
 import "./style.css";
 import "./modal.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from './components/navBar'
+import NavBar from './components/nav'
 import Footer from './components/Footer'
 
 
