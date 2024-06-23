@@ -6,7 +6,7 @@ import "./modal.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from './components/nav';
 import Footer from './components/Footer';
-import Lines from './components/Lines';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <NavBar />
-        <Lines />
+     
         {children}
         <Footer />
       </body>
