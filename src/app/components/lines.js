@@ -3,7 +3,7 @@ import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
 
-export default function Line() {
+export default function Lines() {
   return (
     <div>
       <Link href='https://lin.ee/8Ty5gad' className=''>  
