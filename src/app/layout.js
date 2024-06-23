@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-        <Head>
+        <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
         <meta property="twitter:url" content={metadata.canonical} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href={metadata.canonical} />
-      </Head>
+      </head>
       <body className={inter.className}>
         <NavBar />
         <Line />
